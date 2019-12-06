@@ -1,0 +1,26 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * Color Dropdown module for Craft CMS
+ *
+ * ColorDropdown Field Settings
+ *
+ * @author    Simon Corless
+ * @copyright Copyright (c) 2019 Simon Corless
+ * @link      www.sico.co.uk
+ * @package   ColorDropdownModule
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% do view.registerAssetBundle("modules\\colordropdownmodule\\assetbundles\\colordropdownmodule\\ColorDropdownModuleAsset") %}
+
+{{ forms.textField({
+    label: 'Some Attribute',
+    instructions: 'Enter some attribute here.',
+    id: 'someAttribute',
+    name: 'someAttribute',
+    value: field['someAttribute']})
+}}

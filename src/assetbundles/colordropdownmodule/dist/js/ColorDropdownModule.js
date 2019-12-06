@@ -1,0 +1,11 @@
+/**
+ * Color Dropdown module for Craft CMS
+ *
+ * Color Dropdown JS
+ *
+ * @author    Simon Corless
+ * @copyright Copyright (c) 2019 Simon Corless
+ * @link      www.sico.co.uk
+ * @package   ColorDropdownModule
+ * @since     1.0.0
+ */
