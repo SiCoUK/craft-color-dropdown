@@ -1,0 +1,35 @@
+{
+  "name": "sicouk/craft-color-dropdown",
+  "description": "A dropdown select element to allow for colour names and hex colour fields for use in the frontend.",
+  "version": "1.0.0",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "site",
+    "module",
+    "site-module"
+  ],
+  "license": "MIT",
+  "homepage": "https://sico.co.uk/",
+  "type": "project",
+  "support": {
+    "email": "",
+    "issues": "https://github.com/SiCoUK/craft-color-dropdown/issues",
+    "source": "https://github.com/SiCoUK/craft-color-dropdown",
+    "docs": "https://github.com/SiCoUK/craft-color-dropdown"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "modules\\color-dropdown\\": "modules/color-dropdown/src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
